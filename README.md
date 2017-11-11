@@ -12,7 +12,7 @@ action at the end of the build (after Veracode completed):
 `vCodeFlowdockNotifer appABCconfig.json`
 
 ## Configuration File
-A sample config file is shown below. The 5 parameters below are require to be present.
+A sample config file is shown below. The 7 parameters below are require to be present.
 ```
 {
     "credsFile": "/Users/bpitta/.veracode/credentials",     // Location of Veracode credentials file
