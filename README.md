@@ -1,4 +1,5 @@
 # Veracode Flowdock Notifier Utility
+[![Go Report Card](https://goreportcard.com/badge/github.com/brian1917/vcodeFlowdockNotifier)](https://goreportcard.com/report/github.com/brian1917/vcodeFlowdockNotifier)
 
 ## Description
 Utility designed to be run in a build process after a Veracode scan to notify Flowdock that the scan completed. Optionally, the notification can also include the compliance policy assigned to that app and whether or not it's passing. For builds that don't wait for the Veracode scan to complete, the utility can be set to run on a schedule to provide notifications.
